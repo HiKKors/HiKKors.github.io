@@ -1,0 +1,57 @@
+/* обращение к тегу */
+/* p {
+    color: red;
+} */
+
+
+/* обращение по классу */
+/* .res {
+    color:gold;
+} */
+
+
+/* обращение по id */
+/* #tmp1{
+    color: green;
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* обращаемся через родителя */
+/* ol p {
+    color: rebeccapurple;
+} */
+
+.menu {
+    list-style: none;
+    border-bottom: 1px #FF7F50 solid;
+    padding-bottom: 10px;
+}
+
+li {
+    display: inline;
+    margin-right: 60px;
+}
+
+a {
+    color:#FF7F50;
+    text-decoration: none;
+    background: #000000;
+    border: 1px #FF7F50 solid;
+    padding: 10px 14px;
+    border-bottom: none;
+}
+
+.check {
+    color: #000000;
+    background-color: #FF7F50;
+    border: 1px #FF7F50 solid;
+    padding: 14px 14px 10px 14px;
+}
+
+a:hover {
+    color: aqua;
+}
